@@ -18,6 +18,6 @@ when get errors try run `wsl.exe --install -d Ubuntu`
 ### use clash in wsl2
 add or revise file `.wslconfig` in `C:\Users\<your_name>\.wslconfig`
 add content : 
-`[wsl2]
+``[wsl2]
 networkingMode=mirrored
-`
+``
