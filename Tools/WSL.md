@@ -1,5 +1,4 @@
-# WSL to used in windows
-
+# How to use wsl
 
 ### Initial setting
 turn on `Hyper-V` and `Windows Subsystem for Linux` in `Turn Windows freatures on or off`
@@ -13,3 +12,6 @@ when get errors try run `wsl.exe --install -d Ubuntu`
 `wsl --export <Name> C:\Ubuntu\ubuntu.tar`
 2. delete the original ubuntu system
 `wsl --unregister <Name>`
+3. import the ubuntu system where you have expoert
+`wsl --import <Name> C:\Ubuntu C:\Ubuntu\ubuntu.tar`
+
