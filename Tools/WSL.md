@@ -15,3 +15,9 @@ when get errors try run `wsl.exe --install -d Ubuntu`
 3. import the ubuntu system where you have expoert
 `wsl --import <Name> C:\Ubuntu C:\Ubuntu\ubuntu.tar`
 
+### use clash in wsl2
+add or revise file `.wslconfig` in `C:\Users\<your_name>\.wslconfig`
+add content : 
+`[wsl2]
+networkingMode=mirrored
+`
