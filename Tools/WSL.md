@@ -7,3 +7,5 @@ turn on `Hyper-V` and `Windows Subsystem for Linux` in `Turn Windows freatures o
 ### download wsl
 run `wsl --install`
 when get errors try run `wsl.exe --install -d Ubuntu`
+
+2^1
