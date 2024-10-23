@@ -10,6 +10,6 @@ when get errors try run `wsl.exe --install -d Ubuntu`
 
 ### Transfer WSL location
 1. export ubuntu system(maybe you have many of sub-linux system)
-``wsl --export <Name> C:\Ubuntu\ubuntu.tar``
+`wsl --export <Name> C:\Ubuntu\ubuntu.tar`
 2. delete the original ubuntu system
-``wsl --unregister <Name>``
+`wsl --unregister <Name>`
