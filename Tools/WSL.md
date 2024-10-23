@@ -4,8 +4,12 @@
 ### Initial setting
 turn on `Hyper-V` and `Windows Subsystem for Linux` in `Turn Windows freatures on or off`
 
-### download wsl
+### Download wsl
 run `wsl --install`
 when get errors try run `wsl.exe --install -d Ubuntu`
 
-$2^1$
+### Transfer WSL location
+1. export ubuntu system(maybe you have many of sub-linux system)
+``wsl --export <Name> C:\Ubuntu\ubuntu.tar``
+2. delete the original ubuntu system
+``wsl --unregister <Name>``
